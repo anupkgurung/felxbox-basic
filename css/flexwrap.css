@@ -1,0 +1,39 @@
+body {
+    background-color: #ffa69e;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    border: 1px dotted;
+    margin: 20px;
+    text-align: center;
+}
+.container {
+    border: 1px solid;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+}
+.item{
+    border: 1px solid;
+    margin: 5px 5px;
+    padding: 20px;
+    height: 50%;
+    width: 300px;
+    background-color: lightseagreen;
+}
+.item:hover {
+    background-color: yellow
+}
+.container.wrap { 
+    flex-wrap: wrap;
+}
+.container.nowrap { 
+    flex-wrap: nowrap;
+}
+.container.reverse-wrap { 
+    flex-wrap: wrap-reverse;
+}

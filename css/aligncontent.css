@@ -1,0 +1,30 @@
+body {
+    background-color: #ffa69e;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    border: 1px dotted;
+    margin: 20px;
+    text-align: center;
+}
+.container {
+    border: 1px solid;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    width: 500px;
+    align-content: sp;
+}
+.item{
+    border: 1px solid;
+    margin: 5px 5px;
+    padding: 20px;
+    background-color: lightseagreen;
+}
+.item:hover {
+    background-color: yellow
+}

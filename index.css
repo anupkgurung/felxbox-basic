@@ -1,0 +1,39 @@
+body {
+    background: #faf3dd;
+ }
+
+ /* ffa69e
+ b8f2e6
+ aed9e0 5e6472 */
+ 
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+.parent-container, .child-container{
+    border: 1px dotted;
+    margin: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.parent-item, .child-item  {
+    border: 1px solid;
+    padding: 20px;
+    margin: 5px;
+    flex-grow: 1;
+    width: 250px;
+    text-decoration: none;
+}
+
+.parent-item:hover, .child-item:hover  {
+    background: #ffa69e;
+}
+a {
+    color:black
+}
