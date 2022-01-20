@@ -13,27 +13,9 @@ body {
 }
 .container {
     border: 1px solid;
-    margin: 10px;
-    padding: 20px;
+    margin: 10px 250px;
     display: flex;
-    height: 200px;
     flex-wrap: wrap;
-    align-content: flex-start;
-}
-.container.end {
-    align-content: flex-end;
-}
-.container.center {
-    align-content: center;
-}
-.container.stretch {
-    align-content: stretch;
-}
-.container.space-around {
-    align-content: space-around;
-}
-.container.space-between {
-    align-content: space-between;
 }
 .item{
     border: 1px solid;
@@ -44,4 +26,17 @@ body {
 .item:hover {
     background-color: yellow
 }
-
+.grow-one .item:nth-child(2){
+    flex-grow: 1;
+    background-color: lightskyblue;
+}
+.grow-two .item:nth-child(5){
+    flex-grow : 2;
+    background-color: lightskyblue;
+}
+.grow-one .item:hover:nth-child(2){
+    background-color: green;
+}
+.grow-two .item:hover:nth-child(5){
+    background-color: green;
+}
