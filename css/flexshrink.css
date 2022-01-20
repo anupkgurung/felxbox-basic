@@ -1,0 +1,38 @@
+body {
+    background-color: #ffa69e;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    border: 1px dotted;
+    margin: 20px;
+    text-align: center;
+}
+.container {
+    border: 1px solid;
+    margin: 10px;
+    display: flex;
+}
+.item{
+    margin: 5px 5px;
+    padding: 20px;
+    background-color: lightseagreen;  
+    flex-basis: 120px;
+    /* flex basis is defaults to auto */
+}
+
+.item:hover {
+    background-color: yellow
+}
+.shrink-one .item:nth-child(2){
+    flex-shrink: 0;
+    /* (shrink 0 will not shrink as the page gets smaller) */
+    background-color: lightskyblue;
+}
+.shrink-two .item:nth-child(5){
+    flex-shrink : 2;
+    background-color: lightskyblue;
+}
